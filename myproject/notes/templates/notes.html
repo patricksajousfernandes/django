@@ -1,0 +1,11 @@
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Add Note</button>
+</form>
+
+<ul>
+{% for note in notes %}
+    <li>{{ note.content }}</li>
+{% endfor %}
+</ul>

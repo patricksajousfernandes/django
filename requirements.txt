@@ -1,3 +1,6 @@
+
 Django==3.2.12
 mysqlclient==2.1.1
+python-decouple==3.8
+pyxdg==0.27
 
